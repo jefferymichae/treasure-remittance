@@ -281,13 +281,13 @@
   color: #a855f7;
 }
 
-.trustStrip {
+.treasureStrip {
   background: var(--bg-surface);
   border-top: 1px solid var(--border);
   padding: 4rem 0;
 }
 
-.trustContent {
+.treasureContent {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -295,23 +295,23 @@
   gap: 3rem;
 }
 
-.trustText h2 {
+.treasureText h2 {
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
   color: var(--text-main);
 }
 
-.trustText p {
+.treasureText p {
   color: var(--text-muted);
   max-width: 500px;
 }
 
-.trustIcons {
+.treasureIcons {
   display: flex;
   gap: 2rem;
 }
 
-.trustBadge {
+.treasureBadge {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -339,7 +339,7 @@
   .reverseGrid .productImageWrapper {
     order: -1;
   }
-  .trustContent {
+  .treasureContent {
     flex-direction: column;
     text-align: center;
   }

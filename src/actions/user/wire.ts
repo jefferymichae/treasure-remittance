@@ -84,7 +84,7 @@ const safeSwiftCode = swiftCode ? sanitize(swiftCode) : undefined;
       where: { accountNumber: accountNumber }
   });
   if (internalAccount) {
-      return { message: "TrustBank Account detected. Please use 'Local Transfer' for instant, fee-free transactions." };
+      return { message: "Treasure Bank Account detected. Please use 'Local Transfer' for instant, fee-free transactions." };
   }
 
   const serviceFee = calculateWireFee(amount);

@@ -198,17 +198,17 @@ export default async function BorrowPage() {
                 </div>
             </section>
 
-            <section className={styles.trustStrip}>
+            <section className={styles.treasureStrip}>
                 <div className={styles.container}>
-                    <div className={styles.trustGrid}>
-                        <div className={styles.trustItem}>
+                    <div className={styles.treasureGrid}>
+                        <div className={styles.treasureItem}>
                             <ShieldCheck size={40} className={styles.iconBlue} />
                             <div>
                                 <h4>{settings.borrow_trust1_title}</h4>
                                 <p>{settings.borrow_trust1_desc}</p>
                             </div>
                         </div>
-                        <div className={styles.trustItem}>
+                        <div className={styles.treasureItem}>
                             <Zap size={40} className={styles.iconYellow} />
                             <div>
                                 <h4>{settings.borrow_trust2_title}</h4>

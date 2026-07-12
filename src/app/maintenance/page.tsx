@@ -54,7 +54,7 @@ export default async function MaintenancePage() {
             </div>
 
             <p className={styles.footer}>
-                {cms.site_name || "Trust Bank"} Operations • Ref: SYS-MAINT-{new Date().getFullYear()}
+                {cms.site_name || "Treasure Bank"} Operations • Ref: SYS-MAINT-{new Date().getFullYear()}
             </p>
         </div>
     );

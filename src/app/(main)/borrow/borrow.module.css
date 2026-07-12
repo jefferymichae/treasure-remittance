@@ -276,31 +276,31 @@
 .iconGold   { color: var(--accent); }
 .iconYellow { color: #eab308; }
 
-.trustStrip {
+.treasureStrip {
   background: var(--bg-app);
   border-top: 1px solid var(--border);
   padding: 4rem 0;
 }
 
-.trustGrid {
+.treasureGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
 }
 
-.trustItem {
+.treasureItem {
   display: flex;
   gap: 1.5rem;
   align-items: flex-start;
 }
 
-.trustItem h4 {
+.treasureItem h4 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
   color: var(--text-main);
 }
 
-.trustItem p {
+.treasureItem p {
   color: var(--text-muted);
   line-height: 1.6;
 }
@@ -311,5 +311,5 @@
   .productContent { align-items: center; }
   .productImageWrapper { height: 300px; order: -1; }
   .reverseGrid .productImageWrapper { order: -1; }
-  .trustGrid { grid-template-columns: 1fr; gap: 3rem; }
+  .treasureGrid { grid-template-columns: 1fr; gap: 3rem; }
 }

@@ -189,7 +189,7 @@ const safeZipCode = zipCode ? sanitize(zipCode) : undefined;
         await db.notification.create({
             data: {
                 userId: newUser.id,
-                title: "Welcome to TrustBank",
+                title: "Welcome to Treasure Bank",
                 message: "Your account has been successfully created. Please verify your identity to unlock all features.",
                 type: "INFO",
                 link: "/dashboard/verify",

@@ -8,7 +8,7 @@ export default function CookieBanner() {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        const consent = localStorage.getItem('trustbank_consent');
+        const consent = localStorage.getItem('treasurebank_consent');
 
         if (consent === 'true') {
             // initGoogleAnalytics();
@@ -24,12 +24,12 @@ export default function CookieBanner() {
     }, []);
 
     const handleAccept = () => {
-        localStorage.setItem('trustbank_consent', 'true');
+        localStorage.setItem('treasurebank_consent', 'true');
         setIsVisible(false);
     };
 
     const handleDecline = () => {
-        localStorage.setItem('trustbank_consent', 'false');
+        localStorage.setItem('treasurebank_consent', 'false');
         setIsVisible(false);
     };
 

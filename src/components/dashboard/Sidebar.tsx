@@ -44,7 +44,7 @@ export default function Sidebar({ data }: SidebarProps) {
     const wireBadgeVariant = data.counts.actionRequired > 0 ? 'danger' : 'default';
 
     const logoSource = data.logoUrl || '/logo.png';
-    const siteTitle = data.siteName || 'Trust Bank';
+    const siteTitle = data.siteName || 'Treasure Bank';
 
     return (
         <>

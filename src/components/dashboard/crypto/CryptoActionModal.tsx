@@ -87,7 +87,7 @@ export default function CryptoActionModal({ asset }: { asset: Asset }) {
                         </div>
                         <p className={styles.qrText}>
                             Scan to deposit <strong>{asset.symbol}</strong> directly to your wallet.
-                            <br />Network: <strong>TrustBank Chain (TBC)</strong>
+                            <br />Network: <strong>Treasure Bank Chain (TBC)</strong>
                         </p>
                         <div className={styles.addressBox}>
                             <span className={styles.addressText}>{walletAddress}</span>

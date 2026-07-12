@@ -16,7 +16,7 @@ export async function sendSecurityEmail(
   to: string,
   userName: string,
   type: 'LOCKED' | 'BLOCKED',
-  siteName: string = "Trust Bank"
+  siteName: string = "Treasure Bank"
 ) {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
   const logoUrl = `${baseUrl}/logo.png`;
@@ -85,7 +85,7 @@ export async function sendSecurityEmail(
 }
 
 
-export async function sendVerificationEmail(to: string, code: string, siteName: string = "Trust Capital") {
+export async function sendVerificationEmail(to: string, code: string, siteName: string = "Treasure Bank") {
 const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 const logoUrl = `${baseUrl}/logo.png`;
 

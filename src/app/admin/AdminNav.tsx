@@ -35,7 +35,7 @@ export default function AdminNav({ role, logoUrl, siteName, ticketUnreadCount = 
     const close = () => setIsOpen(false);
 
     const logoSrc = logoUrl || '/logo.png';
-    const title = siteName || 'TrustBank';
+    const title = siteName || 'Treasure Bank';
 
     const exitLink = (
         <Link href="/dashboard" className={styles.exitLink} onClick={close}>

@@ -7,7 +7,7 @@ async function createAdmin() {
   console.log("Seeding Super Admin...");
 
   // 1. Credentials
-  const EMAIL = "admin@trustbank.com";
+  const EMAIL = "admin@treasurebank.com";
   const PASSWORD = "admin123";
   const PIN = "0000";
   const ADMIN_ACC_NO = "9999999999";

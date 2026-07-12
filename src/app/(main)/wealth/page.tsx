@@ -16,7 +16,7 @@ export default async function WealthPage() {
             href: settings.wealth_service1_id
         },
         {
-            title: settings.wealth_service2_title, // Estate & Trust
+            title: settings.wealth_service2_title, // Estate & Treasure
             desc: settings.wealth_service2_desc,
             icon: <FileText size={32} />,
             link: settings.wealth_service2_btn,

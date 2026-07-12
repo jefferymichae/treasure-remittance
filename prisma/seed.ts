@@ -16,7 +16,7 @@ const SEED_MENUS = {
       [
         { label: "Payments & Services", href: "/payments" },
         { label: "Global Transfers & Wires", href: "/payments#wires" },
-        { label: "Trust Kids Club", href: "/save#kids" },
+        { label: "Treasure Kids Club", href: "/save#kids" },
         { label: "Student Banking", href: "/bank#student" },
         { label: "ATMs & Locations", href: "/locations" },
       ]
@@ -64,7 +64,7 @@ const SEED_MENUS = {
       ],
       [
         { label: "Private Client", href: "/wealth#pcg" },
-        { label: "Estate & Trust", href: "/wealth#estate" },
+        { label: "Estate & Treasure", href: "/wealth#estate" },
         { label: "Wealth Simulator", href: "/wealth" },
         { label: "Market Insights", href: "/learn#news" },
       ]
@@ -111,7 +111,7 @@ const SEED_MENUS = {
       ],
       [
         { label: "Company", href: "/about" },
-        { label: "About TrustBank", href: "/about" },
+        { label: "About Treasure Bank", href: "/about" },
         { label: "Careers", href: "/careers" },
         { label: "Investor Relations", href: "/investors" },
         { label: "Press & Media", href: "/press" },
@@ -142,7 +142,7 @@ const SEED_LEGAL_PRIVACY = `
 
 const SEED_LEGAL_TERMS = `
 <h2>1. Acceptance of Terms</h2>
-<p>By accessing or using TrustBank services, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the service.</p>
+<p>By accessing or using Treasure Bank services, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the service.</p>
 
 <h2>2. User Responsibilities</h2>
 <p>You are responsible for maintaining the confidentiality of your account credentials. You agree to notify us immediately of any unauthorized use of your account.</p>
@@ -151,12 +151,12 @@ const SEED_LEGAL_TERMS = `
 <p>You consent to receive communications from us electronically. We will communicate with you by email or by posting notices on this site.</p>
 
 <h2>4. Limitation of Liability</h2>
-<p>TrustBank shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits.</p>
+<p>Treasure Bank shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits.</p>
 `;
 
 const SEED_LEGAL_ACCESS = `
 <h2>Our Commitment</h2>
-<p>TrustBank is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability. We are actively working to increase the accessibility and usability of our website and in doing so adhere to many of the available standards and guidelines.</p>
+<p>Treasure Bank is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability. We are actively working to increase the accessibility and usability of our website and in doing so adhere to many of the available standards and guidelines.</p>
 
 <h2>Standards</h2>
 <p>This website endeavors to conform to level Double-A of the World Wide Web Consortium (W3C) Web Content Accessibility Guidelines 2.1. These guidelines explain how to make web content more accessible for people with disabilities.</p>
@@ -170,7 +170,7 @@ const SEED_LEGAL_ACCESS = `
 </ul>
 
 <h2>Contact Us</h2>
-<p>If you experience any difficulty in accessing any part of this website, please email us at <a href="mailto:accessibility@trustbank.com">accessibility@trustbank.com</a>.</p>
+<p>If you experience any difficulty in accessing any part of this website, please email us at <a href="mailto:accessibility@treasurebank.com">accessibility@treasurebank.com</a>.</p>
 `;
 
 
@@ -182,11 +182,11 @@ async function main() {
 
   // A. Top-Level Settings
   const baseSettingsData = {
-    site_name: "TrustBank",
+    site_name: "Treasure Bank",
     site_logo: "/logo.png",
     announcement_active: true,
-    announcement_text: "TrustBank was recently named 'Best Digital Bank 2026' by Global Finance Magazine.",
-    announcement_contact_phone: "1-800-TRUST-VIP",
+    announcement_text: "Treasure Bank was recently named 'Best Digital Bank 2026' by Global Finance Magazine.",
+    announcement_contact_phone: "1-800-TREASURE-VIP",
     nav_structure_json: JSON.stringify(SEED_MENUS),
 
     // Top Level Nav Texts
@@ -332,7 +332,7 @@ async function main() {
       id: "faq_trf_01",
       category: "Transfers",
       question: "What are the fees for wire and local transfers?",
-      answer: "Local transfers between TrustBank accounts are free. International Wire Transfers are subject to a standard processing fee (typically $25.00) plus any applicable exchange rate margins, which are displayed before you confirm the transfer.",
+      answer: "Local transfers between Treasure Bank accounts are free. International Wire Transfers are subject to a standard processing fee (typically $25.00) plus any applicable exchange rate margins, which are displayed before you confirm the transfer.",
       order: 4
     },
     {
@@ -369,7 +369,7 @@ async function main() {
       id: "faq_acc_03",
       category: "Account & Cards",
       question: "Can I use my card while traveling abroad?",
-      answer: "Yes, your TrustBank card works globally. To prevent fraud alerts from triggering while you are away, we recommend sending a message to Support with your travel dates.",
+      answer: "Yes, your Treasure Bank card works globally. To prevent fraud alerts from triggering while you are away, we recommend sending a message to Support with your travel dates.",
       order: 9
     }
   ];
@@ -460,7 +460,7 @@ async function main() {
       address: "100 Wall Street, Fl 24",
       city: "New York, NY",
       phone: "+1 (212) 555-0199",
-      email: "nyc.main@trustbank.com",
+      email: "nyc.main@treasurebank.com",
       hours: "Mon - Fri: 8:00 AM - 6:00 PM",
       isActive: true
     },
@@ -470,7 +470,7 @@ async function main() {
       address: "45 Canary Wharf",
       city: "London, UK",
       phone: "+44 20 7946 0958",
-      email: "london@trustbank.com",
+      email: "london@treasurebank.com",
       hours: "Mon - Fri: 9:00 AM - 5:00 PM",
       isActive: true
     },
@@ -480,7 +480,7 @@ async function main() {
       address: "500 Howard St",
       city: "San Francisco, CA",
       phone: "+1 (415) 555-0123",
-      email: "sf.tech@trustbank.com",
+      email: "sf.tech@treasurebank.com",
       hours: "Mon - Fri: 10:00 AM - 4:00 PM",
       isActive: true
     },
@@ -490,7 +490,7 @@ async function main() {
       address: "212 Camelback Rd",
       city: "Phoenix, AZ",
       phone: "+1 (602) 555-6789",
-      email: "wealth.az@trustbank.com",
+      email: "wealth.az@treasurebank.com",
       hours: "By Appointment Only",
       isActive: true
     }

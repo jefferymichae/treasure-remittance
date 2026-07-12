@@ -69,7 +69,7 @@ export function HomeTab({ settings, logoUrl, setLogoUrl, heroUrl, setHeroUrl, ho
             </div>
             <div className={styles.group}>
                 <label className={styles.label}>Hero Badge</label>
-                <input name="hero_badge" defaultValue={settings.hero_badge} className={styles.input} placeholder="e.g. TRUST BANK PERSONAL" />
+                <input name="hero_badge" defaultValue={settings.hero_badge} className={styles.input} placeholder="e.g. TREASURE BANK PERSONAL" />
             </div>
             <div className={styles.group}>
                 <label className={styles.label}>Headline</label>

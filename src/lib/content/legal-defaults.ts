@@ -14,7 +14,7 @@ export const DEFAULT_PRIVACY = `
 
 export const DEFAULT_TERMS = `
 <h2>1. Acceptance of Terms</h2>
-<p>By accessing or using TrustBank services, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the service.</p>
+<p>By accessing or using Treasure Bank services, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the service.</p>
 
 <h2>2. User Responsibilities</h2>
 <p>You are responsible for maintaining the confidentiality of your account credentials. You agree to notify us immediately of any unauthorized use of your account.</p>
@@ -23,12 +23,12 @@ export const DEFAULT_TERMS = `
 <p>You consent to receive communications from us electronically. We will communicate with you by email or by posting notices on this site.</p>
 
 <h2>4. Limitation of Liability</h2>
-<p>TrustBank shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits.</p>
+<p>Treasure Bank shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits.</p>
 `;
 
 export const DEFAULT_ACCESSIBILITY = `
 <h2>Our Commitment</h2>
-<p>TrustBank is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability. We are actively working to increase the accessibility and usability of our website and in doing so adhere to many of the available standards and guidelines.</p>
+<p>Treasure Bank is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability. We are actively working to increase the accessibility and usability of our website and in doing so adhere to many of the available standards and guidelines.</p>
 
 <h2>Standards</h2>
 <p>This website endeavors to conform to level Double-A of the World Wide Web Consortium (W3C) Web Content Accessibility Guidelines 2.1. These guidelines explain how to make web content more accessible for people with disabilities.</p>
@@ -42,5 +42,5 @@ export const DEFAULT_ACCESSIBILITY = `
 </ul>
 
 <h2>Contact Us</h2>
-<p>If you experience any difficulty in accessing any part of this website, please email us at <a href="mailto:accessibility@trustbank.com">accessibility@trustbank.com</a>.</p>
+<p>If you experience any difficulty in accessing any part of this website, please email us at <a href="mailto:accessibility@treasurebank.com">accessibility@treasurebank.com</a>.</p>
 `;

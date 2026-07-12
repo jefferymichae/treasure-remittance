@@ -161,7 +161,7 @@ export function WealthTab({ settings, wealthHeroUrl, setWealthHeroUrl, wealthPcg
                 <textarea name="wealth_service1_desc" defaultValue={settings.wealth_service1_desc} className={styles.textarea} />
             </div>
 
-            <div className={styles.groupHeader}><strong>2. Estate & Trust</strong></div>
+            <div className={styles.groupHeader}><strong>2. Estate & Treasure</strong></div>
             <div className={styles.group}>
                 <label className={styles.label}>Title</label>
                 <input name="wealth_service2_title" defaultValue={settings.wealth_service2_title} className={styles.input} />

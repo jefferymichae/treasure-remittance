@@ -4,20 +4,20 @@ import ResendVerificationForm from '@/components/auth/resendVerification/ResendV
 import styles from "../../../components/auth/login/styles/loading.module.css";
 
 export const metadata = {
-    title: 'Resend Verification | Trust Bank',
+    title: 'Resend Verification | Treasure Bank',
 };
 
 export default function ResendVerificationPage() {
     return (
-         <Suspense fallback={
-                    <div className={styles.loaderContainer}>
-                        <div className={styles.loaderInner}>
-                            <Loader2 size={48} className={styles.spinner} />
-                            <p className={styles.loaderText}>Loading secure vault…</p>
-                        </div>
-                    </div>
-                }>
+        <Suspense fallback={
+            <div className={styles.loaderContainer}>
+                <div className={styles.loaderInner}>
+                    <Loader2 size={48} className={styles.spinner} />
+                    <p className={styles.loaderText}>Loading secure vault…</p>
+                </div>
+            </div>
+        }>
             <ResendVerificationForm />
-                </Suspense>
+        </Suspense>
     );
 }

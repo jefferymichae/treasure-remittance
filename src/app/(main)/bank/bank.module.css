@@ -324,12 +324,12 @@
   letter-spacing: 1px;
   color: var(--text-main);
 }
-.thTrust {
+.thTreasure {
   color: var(--primary) !important;
   font-weight: 800;
   font-size: 1.1rem !important;
 }
-.tdTrust {
+.tdTreasure {
   color: var(--primary) !important;
   font-weight: 700;
   background: rgba(59, 130, 246, 0.05);

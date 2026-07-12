@@ -26,7 +26,7 @@ const promoteSchema = z.object({
 
 describe('staffCreateSchema', () => {
   const validStaff = {
-    email: 'newadmin@trust.com',
+    email: 'newadmin@treasure.com',
     fullName: 'Jane Admin',
     password: 'secure123',
     role: UserRole.ADMIN,
@@ -55,12 +55,12 @@ describe('staffCreateSchema', () => {
 
 describe('promoteSchema', () => {
   it('accepts valid promotion', () => {
-    const s = promoteSchema.safeParse({ email: 'user@trust.com', role: UserRole.ADMIN });
+    const s = promoteSchema.safeParse({ email: 'user@treasure.com', role: UserRole.ADMIN });
     expect(s.success).toBe(true);
   });
 
   it('rejects promotion to Super Admin', () => {
-    const s = promoteSchema.safeParse({ email: 'user@trust.com', role: UserRole.SUPER_ADMIN });
+    const s = promoteSchema.safeParse({ email: 'user@treasure.com', role: UserRole.SUPER_ADMIN });
     expect(s.success).toBe(false);
   });
 });

@@ -53,7 +53,7 @@ export default async function TransactionDetailsPage({ params }: PageProps) {
     const printedStr = now.toLocaleDateString("en-US", { timeZone: tz, weekday: "long", day: "numeric", month: "long", year: "numeric" })
         + " " + now.toLocaleTimeString("en-US", { timeZone: tz, hour: "2-digit", minute: "2-digit", hour12: true });
 
-    const bankName = settings.site_name || "TrustBank";
+    const bankName = settings.site_name || "Treasure Bank";
     const refCode = transaction.id.slice(-8).toUpperCase();
     const maskedAccount = `••••••••${transaction.account.accountNumber.slice(-4)}`;
 

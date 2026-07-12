@@ -25,7 +25,7 @@ export default function VirtualCard({ card, userName, overrideStatus, siteName }
     const currentStatus = overrideStatus || card.status;
     const isFrozen = currentStatus === 'FROZEN';
 
-    const bankLabel = siteName ? siteName.toUpperCase() : 'TRUST  BANK';
+    const bankLabel = siteName ? siteName.toUpperCase() : 'TREASURE BANK';
 
     const cleanNum = card.cardNumber.replace(/\D/g, '');
 

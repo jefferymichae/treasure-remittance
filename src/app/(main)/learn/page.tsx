@@ -6,7 +6,7 @@ import { BookOpen, Lightbulb, TrendingUp, PlayCircle, ArrowRight } from "lucide-
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Financial Learning Center | TrustBank",
+    title: "Financial Learning Center | Treasure Bank",
     description: "Expert guides, market insights, and tools to help you make smarter money moves.",
 };
 

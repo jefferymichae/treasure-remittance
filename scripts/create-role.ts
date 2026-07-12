@@ -41,7 +41,7 @@ async function main() {
       kycStatus: "VERIFIED",
       passwordHash: hashedPassword,
       transactionPin: "0000",
-      address: "TrustBank HQ",
+      address: "Treasure Bank HQ",
       country: "United States"
     }
   });

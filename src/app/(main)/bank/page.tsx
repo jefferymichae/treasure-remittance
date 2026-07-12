@@ -154,34 +154,34 @@ export default async function BankPage() {
                             <thead>
                                 <tr>
                                     <th>{settings.bank_compare_col_1}</th>
-                                    <th className={styles.thTrust}>{settings.site_name}</th>
+                                    <th className={styles.thTreasure}>{settings.site_name}</th>
                                     <th>{settings.bank_compare_col_2}</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>{settings.bank_tbl_row_1_label}</td>
-                                    <td className={styles.tdTrust}>{settings.bank_fee_monthly}</td>
+                                    <td className={styles.tdTreasure}>{settings.bank_fee_monthly}</td>
                                     <td>{settings.bank_competitor_fee_monthly}</td>
                                 </tr>
                                 <tr>
                                     <td>{settings.bank_tbl_row_2_label}</td>
-                                    <td className={styles.tdTrust}>{settings.bank_fee_overdraft}</td>
+                                    <td className={styles.tdTreasure}>{settings.bank_fee_overdraft}</td>
                                     <td>{settings.bank_competitor_fee_overdraft}</td>
                                 </tr>
                                 <tr>
                                     <td>{settings.bank_tbl_row_3_label}</td>
-                                    <td className={styles.tdTrust}>{settings.bank_fee_foreign}</td>
+                                    <td className={styles.tdTreasure}>{settings.bank_fee_foreign}</td>
                                     <td>{settings.bank_competitor_fee_foreign}</td>
                                 </tr>
                                 <tr>
                                     <td>{settings.bank_tbl_row_4_label}</td>
-                                    <td className={styles.tdTrust}>{settings.bank_min_balance}</td>
+                                    <td className={styles.tdTreasure}>{settings.bank_min_balance}</td>
                                     <td>{settings.bank_competitor_min_balance}</td>
                                 </tr>
                                 <tr>
                                     <td>{settings.bank_tbl_row_5_label}</td>
-                                    <td className={styles.tdTrust}><Check size={20} /></td>
+                                    <td className={styles.tdTreasure}><Check size={20} /></td>
                                     <td><X size={20} /></td>
                                 </tr>
                             </tbody>

@@ -1,4 +1,4 @@
-export const SITE_NAME = "TrustBank";
+export const SITE_NAME = "Treasure Bank";
 export const SITE_DESCRIPTION = "Banking for the Future. Secure, fast, and reliable banking solutions for everyone.";
 export const SITE_LOGO = "/logo.png";
 
@@ -33,7 +33,7 @@ export const MEGA_MENUS: Record<string, MegaMenuSection> = {
             [
                 { label: "Payments & Services", href: "/payments" },
                 { label: "Global Transfers & Wires", href: "/payments#wires" },
-                { label: "Trust Kids Club", href: "/save#kids" },
+                { label: "Treasure Kids Club", href: "/save#kids" },
                 { label: "Student Banking", href: "/bank#student" },
                 { label: "ATMs & Locations", href: "/locations" },
             ]
@@ -83,7 +83,7 @@ export const MEGA_MENUS: Record<string, MegaMenuSection> = {
             ],
             [
                 { label: "Private Client", href: "/wealth#pcg" },
-                { label: "Estate & Trust", href: "/wealth#estate" },
+                { label: "Estate & Treasure", href: "/wealth#estate" },
                 { label: "Wealth Simulator", href: "/wealth" },
                 { label: "Market Insights", href: "/learn#news" },
             ]
@@ -132,7 +132,7 @@ export const MEGA_MENUS: Record<string, MegaMenuSection> = {
             ],
             [
                 { label: "Company", href: "/about" },
-                { label: "About TrustBank", href: "/about" },
+                { label: "About Treasure Bank", href: "/about" },
                 { label: "Careers", href: "/careers" },
                 { label: "Investor Relations", href: "/investors" },
                 { label: "Press & Media", href: "/press" },

@@ -4,7 +4,7 @@ import VerifyEmailForm from "@/components/auth/verifyEmail/VerifyEmailForm";
 import styles from "../../../components/auth/login/styles/loading.module.css";
 
 export const metadata = {
-    title: "Verify Account | Trust Capital",
+  title: "Verify Account | Treasure Capital",
 };
 
 export default function VerifyPage() {

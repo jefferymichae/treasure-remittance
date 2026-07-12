@@ -17,7 +17,7 @@ export const getSiteSettings = cache(async () => {
             mainSettings = await db.siteSettings.create({
                 data: {
                     id: "settings",
-                    site_name: "Trust Bank",
+                    site_name: "Treasure Bank",
                     auth_login_limit: 5,
                     content: { create: { id: "content-settings" } },
                     features: { create: { } }

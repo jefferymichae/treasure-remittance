@@ -58,9 +58,9 @@ async function main() {
   await prisma.siteSettings.create({
     data: {
       id: 'settings',
-      site_name: 'TrustBank Test',
+      site_name: 'Treasure Bank Test',
       site_logo: '/logo.png',
-      contact_email: 'test@trustbank.com',
+      contact_email: 'test@treaaurebank.com',
       contact_phone: '123-456-7890',
       address_main: '123 Test St',
       auth_login_limit: 5,

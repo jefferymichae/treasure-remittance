@@ -26,7 +26,7 @@ interface UserActionsProps {
     isLocked?: boolean;
 }
 
-export default function UserActions({ userId, status, siteName = "TrustBank", isLocked }: UserActionsProps) {
+export default function UserActions({ userId, status, siteName = "Treasure Bank", isLocked }: UserActionsProps) {
     const [loading, setLoading] = useState(false);
     const [showReset, setShowReset] = useState(false);
     const [showResetPin, setShowResetPin] = useState(false);

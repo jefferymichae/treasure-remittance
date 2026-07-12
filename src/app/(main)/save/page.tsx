@@ -141,18 +141,18 @@ export default async function SavePage() {
                 </div>
             </section>
 
-            <section className={styles.trustStrip}>
+            <section className={styles.treasureStrip}>
                 <div className={styles.container}>
-                    <div className={styles.trustContent}>
-                        <div className={styles.trustText}>
+                    <div className={styles.treasureContent}>
+                        <div className={styles.treasureText}>
                             <h2>{settings.save_trust_title}</h2>
                             <p>{settings.save_trust_desc}</p>
                         </div>
-                        <div className={styles.trustIcons}>
-                            <div className={styles.trustBadge}>
+                        <div className={styles.treasureIcons}>
+                            <div className={styles.treasureBadge}>
                                 <Lock size={24} /> {settings.save_trust_badge_1}
                             </div>
-                            <div className={styles.trustBadge}>
+                            <div className={styles.treasureBadge}>
                                 <ShieldCheck size={24} /> {settings.save_trust_badge_2}
                             </div>
                         </div>

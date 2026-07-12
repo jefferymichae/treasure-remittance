@@ -58,7 +58,7 @@ export default async function AdminTransactionReceiptPage({ params }: PageProps)
         timeZone: tz, weekday: "long", day: "numeric", month: "long", year: "numeric"
     }) + " " + now.toLocaleTimeString("en-US", { timeZone: tz, hour: "2-digit", minute: "2-digit", hour12: true });
 
-    const bankName = settings.site_name || "TrustBank";
+    const bankName = settings.site_name || "Treasure Bank";
     const refCode = entry.id.slice(-8).toUpperCase();
     const maskedAccount = `••••••••${entry.account.accountNumber.slice(-4)}`;
 

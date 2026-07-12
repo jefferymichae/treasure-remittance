@@ -1,6 +1,6 @@
-# 🔐 TrustBank Recovery Guide
+# 🔐 Treasure Bank Recovery Guide
 
-This document describes the automated/manual backup and recovery procedures for the TrustBank application.
+This document describes the automated/manual backup and recovery procedures for the Treasure Bank application.
 The system is designed to be fully self‑sufficient — no external services, no single point of failure.
 Everything can be restored from scratch even if the original hosting providers become unavailable.
 
@@ -26,10 +26,10 @@ Everything can be restored from scratch even if the original hosting providers b
 
 ### Downloading a Backup
 
-1. Go to the **Actions** tab of the TrustBank backup repository.
+1. Go to the **Actions** tab of the Treasure Bank backup repository.
 2. Open the most recent successful workflow run (green checkmark).
 3. Scroll down to the **Artifacts** section.
-4. Click the artifact named `trustbank-backup-YYYY‑MM‑DD` to download it.
+4. Click the artifact named `treasure-bank-backup-YYYY‑MM‑DD` to download it.
 5. Extract the ZIP; you will find a file called `backup.dump.enc` — the encrypted database dump.
 
 ### Decrypting the Backup
@@ -85,14 +85,14 @@ backup.bat
    - Encrypt the dump with AES‑256‑CBC using the password from `backup-key.txt`
    - Delete the unencrypted dump
 
-4. The resulting file is `trustbank-YYYY-MM-DD.dump.enc` inside the `backups/` folder.
+4. The resulting file is `treasure-bank-YYYY-MM-DD.dump.enc` inside the `backups/` folder.
 
 ### Restoring from a Manual Backup
 
 Decrypt the backup:
 
 ```bash
-openssl enc -aes-256-cbc -d -pbkdf2 -pass file:backup-key.txt -in backups\trustbank-YYYY-MM-DD.dump.enc -out backups\restored.dump
+openssl enc -aes-256-cbc -d -pbkdf2 -pass file:backup-key.txt -in backups\treasure-bank-YYYY-MM-DD.dump.enc -out backups\restored.dump
 ```
 
 Then restore with `pg_restore` as described above.

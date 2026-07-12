@@ -15,8 +15,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     title: {
-        default: "Trust Bank - Banking for the Future",
-        template: '%s | Trust Bank',
+        default: "Treasure Bank - Banking for the Future",
+        template: '%s | Treasure Bank',
     },
     description: "Secure, fast, and modern banking for everyone.",
     keywords: [
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
         icon: "/favicon.ico",
     },
     openGraph: {
-        title: "Trust Bank - Banking for the Future",
+        title: "Treasure Bank - Banking for the Future",
         description: "Secure, fast, and modern banking for everyone.",
         type: 'website',
         images: [
             {
-                url: "https://trustremittance.online/logo.png",
-                alt: "Trust Bank",
+                url: "https://treasureremittance.capital/logo.png",
+                alt: "Treasure Bank",
             },
         ],
     },

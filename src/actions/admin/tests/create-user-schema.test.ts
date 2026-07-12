@@ -18,7 +18,7 @@ const createUserSchema = z.object({
 
 describe('createUserSchema', () => {
   const validUser = {
-    email: 'newuser@trust.com',
+    email: 'newuser@treasure.com',
     fullName: 'Jane Doe',
     password: 'secure123',
   };

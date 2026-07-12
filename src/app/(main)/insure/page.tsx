@@ -6,7 +6,7 @@ import { Activity, ShieldCheck, ArrowRight } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Insurance Coverage | TrustBank",
+    title: "Insurance Coverage | Treasure Bank",
     description: "Find the right coverage for your life, home, and business.",
 };
 

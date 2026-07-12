@@ -1,12 +1,12 @@
-# TrustBank: | Full-Stack Banking Simulation
+# Treasure Bank: | Full-Stack Banking Simulation
 
-TrustBank is a resilient, full-stack banking ecosystem designed for **100% financial truth**, defensive security, and absolute administrative accountability. Unlike standard banking simulations, TrustBank operates as a **Financial Ledger System**, where every movement of value is recorded as an immutable entry.
+Treasure Bank is a resilient, full-stack banking ecosystem designed for **100% financial truth**, defensive security, and absolute administrative accountability. Unlike standard banking simulations, Treasure Bank operates as a **Financial Ledger System**, where every movement of value is recorded as an immutable entry.
 
 ---
 
 ### 🔗 Quick Links
-* **Live Demo:** [trustbank-omega.vercel.app](https://trustbank-omega.vercel.app/)
-* **Source Code:** [github.com/MikkyPrestige/trustbank](https://github.com/MikkyPrestige/trustbank)
+* **Live Demo:** [https://treasure-remittance.vercel.app](https://treasure-remittance.vercel.app)
+* **Source Code:** [https://github.com/jefferymichae/treasure-remittance](https://github.com/jefferymichae/treasure-remittance)
 
 ---
 

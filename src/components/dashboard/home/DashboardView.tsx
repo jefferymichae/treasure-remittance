@@ -356,7 +356,7 @@ export default function DashboardView({
 
                             <div className={styles.cardTop}>
                                 <span className={styles.bankLogo}>
-                                    {settings.site_name ? settings.site_name.toUpperCase() : 'TRUST BANK'}
+                                    {settings.site_name ? settings.site_name.toUpperCase() : 'TREASURE BANK'}
                                 </span>
                                 <Wifi size={24} className={styles.contactless} color="rgba(255,255,255,0.7)" />
                             </div>

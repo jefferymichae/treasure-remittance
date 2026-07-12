@@ -13,7 +13,7 @@ describe('beneficiarySchema', () => {
   const validBeneficiary = {
     accountName: 'John Doe',
     accountNumber: '123456789',
-    bankName: 'Global Trust Bank',
+    bankName: 'Global Treasure Bank',
   };
 
   it('accepts valid beneficiary', () => {
